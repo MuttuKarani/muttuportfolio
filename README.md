@@ -1,16 +1,135 @@
-# React + Vite
+# 🚀 Muttu Karani — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, animated personal portfolio website built with **React.js**, **Vite**, **Tailwind CSS**, and **Framer Motion**. Features a dark futuristic aesthetic with glass morphism, particle canvas, scroll animations, and a fully responsive layout.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- ⚡ **Vite** — lightning-fast dev server and build tool
+- ⚛️ **React.js** — component-based architecture with reusable UI
+- 🎨 **Tailwind CSS** — utility-first styling with custom design tokens
+- 🎞 **Framer Motion** — smooth scroll-triggered animations
+- 🌌 **Particle Canvas** — animated network background
+- 📱 **Fully Responsive** — mobile-first design
+- 🧭 **Active Nav Spy** — highlights current section on scroll
+- 📊 **Animated Skill Bars** — triggered on scroll into view
+- 🗂 **Single Data File** — update all content from `src/utils/data.js`
+- 🔀 **React Router** — Home, Resume, and 404 pages
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js v18+
+- npm v9+
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/MuttuKarani/muttuportfolio.git
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+---
+
+## ✏️ Updating Content
+
+All portfolio content lives in a **single file**:
+
+```
+src/utils/data.js
+```
+
+| Export            | What it controls                    |
+| ----------------- | ----------------------------------- |
+| `personalInfo`    | Name, title, email, location, links |
+| `stats`           | Hero section stat numbers           |
+| `skillCategories` | Skill category cards with chips     |
+| `skillBars`       | Animated progress bars              |
+| `experiences`     | Work experience timeline            |
+| `projects`        | Project cards grid                  |
+| `navLinks`        | Navbar links                        |
+
+> ✅ No need to touch any component files — just edit `data.js`.
+
+---
+
+## 🧰 Tech Stack
+
+| Tech             | Purpose                 |
+| ---------------- | ----------------------- |
+| React.js 18      | UI framework            |
+| Vite 5           | Build tool & dev server |
+| Tailwind CSS 3   | Styling                 |
+| Framer Motion 11 | Animations              |
+| React Router 6   | Client-side routing     |
+| React Icons      | Icon library            |
+
+---
+
+## 📦 Scripts
+
+| Command           | Description                        |
+| ----------------- | ---------------------------------- |
+| `npm run dev`     | Start dev server at localhost:3000 |
+| `npm run build`   | Build for production               |
+| `npm run preview` | Preview production build locally   |
+
+---
+
+## 🚀 Deployment
+
+This project can be deployed to **Netlify**, **Vercel**, or any static host.
+
+### Netlify (recommended)
+
+```bash
+# Build command
+npm run build
+
+# Publish directory
+dist
+```
+
+Add a `_redirects` file inside `public/` for client-side routing:
+
+```
+/*  /index.html  200
+```
+
+---
+
+## 📬 Contact
+
+**Muttu Karani**
+
+- 📧 muttukarani86@gmail.com
+- 🌐 [linkedin.com/in/muttukarani](https://linkedin.com/in/muttukarani)
+- 💻 [github.com/muttukarani](https://github.com/muttukarani)
+
+---
+
+> Built by Muttu Karani
