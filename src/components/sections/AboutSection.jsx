@@ -37,7 +37,7 @@ const CodeBlock = () => (
     {[
       { key: "name", val: `"${personalInfo.name}"`, valColor: "#fb923c" },
       { key: "role", val: `"${personalInfo.title}"`, valColor: "#fb923c" },
-      { key: "experience", val: '"2+ years"', valColor: "#a78bfa" },
+      { key: "experience", val: '"2.5+ years"', valColor: "#a78bfa" },
     ].map(({ key, val, valColor }) => (
       <div key={key} style={{ paddingLeft: 20 }}>
         <span style={{ color: "#06d6a0" }}>{key}</span>
@@ -118,7 +118,7 @@ const AboutSection = () => (
           className="text-[var(--muted)] leading-[1.8] mb-5"
         >
           Software Developer with{" "}
-          <strong className="text-[var(--text)]">2+ years</strong> of experience
+          <strong className="text-[var(--text)]">2.5+ years</strong> of experience
           building responsive, high-performance web applications. Proficient in
           React.js, TypeScript, JavaScript, and modern UI development.
         </motion.p>

@@ -10,7 +10,7 @@ export const personalInfo = {
   tagline:
     "Building scalable, production-grade web applications with React.js, TypeScript & modern UI engineering.",
   description:
-    "Frontend Developer with 2+ years of experience building scalable, production-grade web applications, including a multitenant SaaS ERP system handling inventory, orders, invoices, and payments. Strong in end-to-end ownership, performance optimization, and building complex business workflows in fast-paced environments.",
+    "Frontend Developer with 2.5+ years of experience building scalable, production-grade web applications, including a multitenant SaaS ERP system handling inventory, orders, invoices, and payments. Strong in end-to-end ownership, performance optimization, and building complex business workflows in fast-paced environments.",
   email: "muttukarani86@gmail.com",
   phone: "+91 9353293609",
   location: "Bagalkot, Karnataka, India",
@@ -21,7 +21,7 @@ export const personalInfo = {
 };
 
 export const stats = [
-  { value: "2+", label: "Years Exp" },
+  { value: "2.5+", label: "Years Exp" },
   { value: "25%", label: "Perf Gain" },
   { value: "SaaS", label: "ERP Built" },
 ];
@@ -133,9 +133,9 @@ export const experiences = [
 export const projects = [
   {
     id: 1,
-    name: "FlowSync Dashboard",
+    name: "Operion Dashboard",
     desc: "Full-featured client & project management dashboard with Kanban boards, task tracking, team collaboration, and project overviews — built for real-world workflow management.",
-    link: "https://flowsync-dashboard.netlify.app/",
+    link: "https://operion-app.netlify.app/login",
     tags: ["React", "Kanban", "Dashboard", "Netlify"],
     icon: "📋",
     accentColor: "#06d6a0",
