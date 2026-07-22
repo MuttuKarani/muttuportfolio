@@ -26,7 +26,8 @@ const ResumePage = () => {
 
       {/* PDF embed */}
       <iframe
-        src="/Muttu_Karani_Resume.pdf"
+        // src="/Muttu_Karani_Resume.pdf"
+        src="/Muttu_Karani_Frontend_Developer_Resume.pdf"
         title="Resume"
         className="flex-1 w-full border-0"
       />

@@ -121,13 +121,13 @@ const ContactSection = () => {
                     id: "name",
                     label: "YOUR NAME",
                     type: "text",
-                    placeholder: "John Doe",
+                    placeholder: "Muttu K",
                   },
                   {
                     id: "email",
                     label: "EMAIL ADDRESS",
                     type: "email",
-                    placeholder: "john@example.com",
+                    placeholder: "muttu@example.com",
                   },
                 ].map(({ id, label, type, placeholder }) => (
                   <div key={id}>

@@ -1,6 +1,5 @@
-// ============================================================
-// PORTFOLIO DATA — edit this file to update all content
-// ============================================================
+
+// PORTFOLIO DATA 
 
 export const personalInfo = {
   name: "Muttu Karani",
@@ -16,7 +15,8 @@ export const personalInfo = {
   location: "Bagalkot, Karnataka, India",
   linkedin: "linkedin.com/in/muttukarani",
   github: "github.com/muttukarani",
-  resumeUrl: "/Muttu_Karani_Resume.pdf",
+  // resumeUrl: "/Muttu_Karani_Resume.pdf",
+   resumeUrl:"/Muttu_Karani_Frontend_Developer_Resume.pdf",
   available: true,
 };
 
